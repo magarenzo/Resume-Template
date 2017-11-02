@@ -1,2 +1,12 @@
 # resume-template
-Template for a resume written in HTML which can be easily converted into a PDF
+Template for a simple resume written in HTML
+
+---
+
+<h3>Output:</h3>
+
+![](https://magarenzo.com/imgs/template.png)
+
+---
+
+*resume.html* acts as a simple template to stem from for customizing a resume. Using HTML and CSS provides for complete control and infinite stylistic options when it comes to creating your perfecct document.
