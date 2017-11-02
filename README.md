@@ -1,5 +1,5 @@
 # resume-template
-Template for a simple resume written in HTML
+Template for a simple resume written in HTML and styled with CSS
 
 ---
 
