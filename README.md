@@ -5,7 +5,7 @@ Template for a simple resume written in HTML and styled with CSS
 
 <h3>Output:</h3>
 
-![]()
+![](https://magarenzo.com/hosting/resume.png)
 
 ---
 
