@@ -4,30 +4,28 @@
 </head>
 <body>
     <page size="A4">
-        <div id="title"><br><u>MY NAME</u></div>
+        <div id="name"><p>MY NAME</p></div>
         <div id="contact">
-            <p> https://mywebsite.com | <a href="mailto:email@domain.com">email@domain.com</a> | <a href="tel:+11234567890">123.456.7890</a></p>
+            <p><a href="https://mywebsite.com">https://mywebsite.com</a> | <a href="mailto:email@domain.com">email@domain.com</a> | <a href="tel:+11234567890">123.456.7890</a></p>
         </div>
         <hr>
         <div id="info">
-            <div class="sm_title">OBJECTIVE</div>
+            <p><span class="sm_title">OBJECTIVE</span></p>
             <div id="objective">
                 <p>Land my dream job.</p>
             </div>
-            <div class="sm_title">EDUCATION</div>
+            <p><span class="sm_title">EDUCATION</span></p>
             <div id="education">
-                <p><b>An Established University</b> |  Location | Graduation Date
-                <br>Bachelor of Science in Resume Writing</p>
+                <p><b>University</b> | Location | Graduation Date<br>Degree in Major</p>
             </div>
-            <div class="sm_title">SKILLS</div>
+            <p><span class="sm_title">SKILLS</span></p>
             <div id="skills">
                 <p>Creating a resume template. Posting it to GitHub.</p>
             </div>
-             <div class="sm_title">EXPERIENCE</div>
+            <p><span class="sm_title">EXPERIENCE</span></p>
              <div id="experience">
-                 <p><b>Location</b> | <u>Position</u> | Location | Date Range
-                 <br>Important stuff I did here. Things I learned and will use further down the road.
-             </div>
+                 <p><b>Company</b> | <u>Position</u> | Location | Date Range<br>Important stuff I did here. Things I learned and will use further down the road.
+            </div>
         </div>
     </page>
 </body>
@@ -54,10 +52,11 @@ page[size="A4"] {
     box-shadow: 0;
   }
 }
-#title {
+#name {
   font-family: 'Anton', sans-serif;
   font-size: 30px;
   text-align: center;
+  text-decoration: underline;
 }
 #contact {
   font-size: 17px;
