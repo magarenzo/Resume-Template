@@ -1,31 +1,22 @@
 <html>
-<head>
-    <title>Resume Template</title>
-</head>
 <body>
     <page size="A4">
-        <div id="name"><p><u>MY NAME</u></div>
-        <div id="contact">
-            <p><a href="https://mywebsite.com">https://mywebsite.com</a> | <a href="mailto:email@domain.com">email@domain.com</a> | <a href="tel:+11234567890">123.456.7890</a></p>
+        <h1>MY NAME</h1>
+        <div class="contact">
+            <a href="https://mywebsite.com">https://mywebsite.com</a> | <a href="mailto:email@domain.com">email@domain.com</a> | <a href="tel:+11234567890">123.456.7890</a>
         </div>
         <hr>
-        <div id="info">
-            <p><span class="sm_title">OBJECTIVE</span></p>
-            <div id="objective">
-                <p>Land my dream job.</p>
-            </div>
-            <p><span class="sm_title">EDUCATION</span></p>
-            <div id="education">
-                <p><strong>University</strong> | Location | Graduation Date<br>Degree in Major</p>
-            </div>
-            <p><span class="sm_title">SKILLS</span></p>
-            <div id="skills">
-                <p>Creating a resume template. Posting it to GitHub.</p>
-            </div>
-            <p><span class="sm_title">EXPERIENCE</span></p>
-             <div id="experience">
-                 <p><strong>Company</strong> | <span id="position">Position</span>> | Location | Date Range<br>Important stuff I did here. Things I learned and will use further down the road.
-            </div>
+        <div class="content">
+            <h2>OBJECTIVE</h2>
+            <p>Land my dream job.</p>
+            <h2>EDUCATION</h2>
+            <p><strong>University</strong> | Location | Graduation Date</p>
+            <p>Degree in Major</p>
+            <h2>SKILLS</span></h2>
+            <p>Creating a resume template. Posting it to GitHub.</p>
+            <h2>EXPERIENCE</h2>
+            <p><strong>Position</strong> | <span class="company">Company</span> | Location | Date Range</p>
+            <p>Important stuff I did. Things I learned and will use in the future.
         </div>
     </page>
 </body>
@@ -34,6 +25,16 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Rubik');
 body {
   font-family: 'Rubik', sans-serif;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+h1 {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+h2 {
+  font-family: 'Anton', sans-serif;
 }
 page {
   background: white;
@@ -50,26 +51,13 @@ page[size="A4"] {
     margin: 0;
   }
 }
-#name {
-  font-family: 'Anton', sans-serif;
-  font-size: 30px;
-  text-align: center;
-  text-decoration: underline;
-}
-#contact {
-  font-size: 17px;
+.contact {
   text-align: center;
 }
-.sm_title {
-  font-family: 'Anton', sans-serif;
-  font-size: 20px;
-}
-#info {
+.content {
   font-size: 15px;
-  padding-left: 1em;
-  padding-right: 1em;
 }
-#position {
+.company {
   text-decoration: underline;
 }
 </style>
