@@ -8,7 +8,7 @@ This acts as a simple template to stem from for customizing a resume. Using HTML
 
 ## Output
 
-![](https://github.com/magarenzo/resume-template/blob/master/screenshots/screenshot.PNG)
+![](media/screenshot.PNG)
 
 ## Owner
 
