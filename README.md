@@ -13,5 +13,3 @@ This acts as a simple template to stem from for customizing a resume. Using HTML
 ## Owner
 
 Michael A. Agarenzo
-
-[&#127867; Buy me a cider, or three!](https://www.buymeacoffee.com/magarenzo)
