@@ -12,4 +12,4 @@ This acts as a simple template to stem from for customizing a resume. Using HTML
 
 ## Owner
 
-[Michael A. Agarenzo](https://magarenzo.com)
+[Michael A.](https://linkedin.com/in/magarenzo)
